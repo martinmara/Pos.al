@@ -1,0 +1,46 @@
+{
+  "siteMetadata": {
+    "language": "en",
+    "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
+    "title": "POS.AL",
+    "titleTemplate": "%s · Portfolio Minimal",
+    "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
+    "author": "Konstantin Münster",
+    "avatar": "../content/images/gatsby.png",
+    "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
+    "social": {
+      "behance": "https://behance.com",
+      "github": "https://github.com/konstantinmuenster",
+      "medium": "https://konstantinmuenster.medium.com",
+      "linkedin": "https://www.linkedin.com/in/konstantin-muenster/",
+      "mail": "mailto:mail@konstantin.digital"
+    }
+  },
+  "siteConfiguration": {
+    "logo": { "text": "Descriptive." },
+    "navigation": {
+      "header": [
+        { "label": "Features", "url": "/#features" },
+        { "label": "Pricing", "url": "/#pricing" },
+        { "label": "FAQ", "url": "/#faq" },
+        { "label": "Reviews", "url": "/#reviews" }
+      ],
+      "ctaButton": {
+        "openNewTab": true,
+        "label": "Free Trial",
+        "url": ""
+      },
+      "footer": [
+        { "label": "Features", "url": "/#features" },
+        { "label": "Pricing", "url": "/#pricing" },
+        { "label": "FAQ", "url": "/#faq" },
+        { "label": "Reviews", "url": "/#reviews" }
+      ]
+    },
+    "featureToggles": {
+      "useDarkModeAsDefault": false,
+      "useDarkModeBasedOnUsersPreference": false,
+      "useCookieBar": false
+    }
+  }
+}
