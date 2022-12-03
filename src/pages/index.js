@@ -1,16 +1,7 @@
 import React from "react";
 import "../gatsby-theme-portfolio-minimal/globalStyles/style.css";
-import { StaticImage } from "gatsby-plugin-image"
-import {
-  AboutSection,
-  ArticlesSection,
-  ContactSection,
-  InterestsSection,
-  Page,
-  ProjectsSection,
-  Section,
-  Seo,
-} from "gatsby-theme-portfolio-minimal";
+import { StaticImage } from "gatsby-plugin-image";
+import { Page, Section, Seo } from "gatsby-theme-portfolio-minimal";
 
 export default function IndexPage() {
   return (
@@ -25,7 +16,6 @@ export default function IndexPage() {
                 <br></br>
                 <br></br>
                 <span className="textspan"> toward professional </span>
-                <br></br>
               </h1>
             </div>
             <div className="mainbutton">
@@ -33,18 +23,27 @@ export default function IndexPage() {
             </div>
           </div>
         </Section>
-       <Section>
-          <StaticImage src="C:\Users\User\Desktop\gatsby-starter-portfolio-minimal-theme-main\src\images\60483f860e3e103bb76c5e87_webflow-seo-tips.jpg"/>
+        <Section id="screenshot">
+          <StaticImage src="C:\Users\User\Desktop\gatsby-starter-portfolio-minimal-theme-main\src\images\60483f860e3e103bb76c5e87_webflow-seo-tips.jpg" />
         </Section>
-       {/* <ArticlesSection
-          sectionId="articles"
-          heading="Latest Articles"
-          sources={["Medium"]}
-  />
-        <AboutSection sectionId="about" heading="About Portfolio Minimal" />
-        <InterestsSection sectionId="details" heading="We collaborate with 200+ leading universities and companies" />
-        <ProjectsSection sectionId="features" heading="Built-in Features" />
-        <ContactSection sectionId="github" heading="Issues?" />*/}
+
+        <div className="mainfooter">
+          <div>
+            <h1 className="startlearning">
+              Start learning with<br></br>
+              Descriptive
+            </h1>
+          </div>
+          <div className="paragraph">
+            <p className="p1">
+              Over 4,000 courses in topics like business analytics, graphic
+              design, Python, and more.
+            </p>
+          </div>
+          <div className="main-button2">
+            <button className="button2">Free Trial</button>
+          </div>
+        </div>
       </Page>
     </>
   );

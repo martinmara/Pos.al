@@ -3,7 +3,7 @@
     "language": "en",
     "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
     "title": "POS.AL",
-    "titleTemplate": "%s · Portfolio Minimal",
+    "titleTemplate": "POS.AL",
     "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
     "author": "Konstantin Münster",
     "avatar": "../content/images/gatsby.png",

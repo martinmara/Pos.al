@@ -1,12 +1,11 @@
 .Footer {
-    color: black;
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
     height: auto;
     min-height: var(--footer-height);
-    background: #f6f4f0;
+    background: var(--primary-color);
     border-top: none;
     margin-top: 2rem;
 }
@@ -34,7 +33,7 @@
     font-size: 0.875rem;
     font-weight: 700;
     text-transform: uppercase;
-    color: black;
+    color: var(--background-color);
     letter-spacing: 1px;
     margin-right: 2rem;
 }
