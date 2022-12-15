@@ -1,0 +1,27 @@
+.Button {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    padding: 19px 29px;
+    border: unset;
+    border-radius: 40px;
+    color: white;
+    z-index: 1;
+    background: rgb(0, 0, 0);
+    position: relative;
+    font-weight: 700;
+    font-size: 18px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 15px;
+}
+
+.Button:hover,
+.Button:active {
+    background-color: #5ba46e;
+    color: white;
+}
+
+.Button:focus {
+    background-color: #5ba46e;
+    color: white;
+}

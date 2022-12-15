@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  margin-top: 0px;
+  margin-bottom: 24px;
+  font-family: Thicccboi, sans-serif;
+  color: #1e1e1e;
+  font-size: 40px;
+  line-height: 70.2px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.paragraph {
+  margin-bottom: 0px;
+  font-family: Thicccboi, sans-serif;
+  color: #444;
+  font-size: 14px;
+  padding-bottom: 30px;
+  line-height: 28.8px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Float four columns side by side */
+.column {
+  width: 25%;
+  padding: 0 10px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  display: inline-block;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 200px) {
+  .card2 {
+    border: solid 1px;
+    border-radius: 30px;
+
+    padding: 10px;
+    width: 290px;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+/* Style the counter cards */
+.card2 {
+  border: solid 1px;
+  border-radius: 30px;
+
+  padding: 10px;
+  width: 290px;
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.star {
+  text-align: center;
+  width: 12px;
+  height: 12px;
+}
+
+.profile {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  max-width: 50px;
+  max-height: 50px;
+  text-align: center;
+}
+
+.review-text {
+  text-align: center;
+  margin-bottom: 24px;
+  font-family: Thicccboi, sans-serif;
+  color: #444;
+  font-size: 13px;
+  line-height: 24px;
+}

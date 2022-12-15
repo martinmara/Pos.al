@@ -1,49 +1,58 @@
 .Footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    min-height: var(--footer-height);
-    background: var(--primary-color);
-    border-top: none;
-    margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  min-height: var(--footer-height);
+  background-color: #fff;
+  border-top: none;
+  margin-top: 2rem;
 }
 
 .ContentWrapper {
-    width: 100%;
-    height: 100%;
-    max-width: var(--page-width);
-    margin: 0 auto;
-    padding: var(--page-padding);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  color: black;
+  width: 100%;
+  height: 100%;
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: var(--page-padding);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .Links {
-    width: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .Links a {
-    font-size: 0.875rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: var(--background-color);
-    letter-spacing: 1px;
-    margin-right: 2rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-right: 2rem;
+  color: gray;
+}
+.Links a :hover {
+  color: black;
 }
 
 .Links a:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 @media (min-width: 768px) {
-    .Links a {
-        margin-right: 4rem;
-    }
+  .Links a {
+    margin-right: 3rem;
+  }
+}
+
+@media (max-width: 400x) {
+  .Links a {
+    font-size: 11px;
+  }
 }

@@ -1,11 +1,13 @@
 .Logo {
-    position: relative;
-    z-index: 13;
-    font-size: 1rem;
-    font-weight: 700;
-    color: black;
-    /* Disable effects when sidebar is open */
-    filter: none !important;
-    pointer-events: auto !important;
-    user-select: auto !important;
+  margin-bottom: 2px;
+  font-family: Thicccboi, sans-serif;
+  color: #1e1e1e;
+  font-size: 20px !important;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .Logo {
+    float: left;
+  }
 }

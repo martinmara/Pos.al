@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Rubik+Distressed&display=swap");
 
 .Header {
- 
   font-family: Thicccboi, sans-serif;
   display: flex;
   flex-direction: row;
@@ -10,6 +9,14 @@
   height: auto;
   min-height: var(--header-height);
   background: var(--background-color);
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 2;
+  padding: 31px 40px;
+  max-height: 10px;
 }
 
 .ContentWrapper  {
@@ -21,6 +28,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  display: flex;
 }
 
 .Burger {
@@ -74,7 +82,7 @@
 .TopNavigationBar a {
   outline: none;
   position: relative;
-  font-size: 1rem;
+  font-size: 14px;
   font-weight: 700;
   text-align: center;
   color: gray;
@@ -91,7 +99,6 @@
 }
 
 .TopNavigationBar a.NavLink::before {
-
   position: absolute;
 
   background-color: black;
@@ -102,16 +109,20 @@
 }
 
 .TopNavigationBar a.CtaButton {
-  padding: 15px 25px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 19px 29px;
   border: unset;
   border-radius: 40px;
   color: white;
   z-index: 1;
-  background: black;
+  background: rgb(0, 0, 0);
   position: relative;
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 750;
+  font-size: 13px;
   overflow: hidden;
+  text-align: center;
+  line-height: 6px;
 }
 
 .TopNavigationBar a.CtaButton:hover {
@@ -168,6 +179,11 @@
   font-weight: 700;
   font-size: 14px;
   overflow: hidden;
+}
+
+.SideNavigationBar a.CtaButton:hover {
+  background-color: #5ba46e;
+  color: white;
 }
 
 .SideBarBackdrop {

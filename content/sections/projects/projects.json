@@ -2,47 +2,47 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "category": "",
+      "title": "Find the right course for you to replenish knowledge and goals",
+      "description": "Browse our study areas to see what's on offer at Despriptive and learn more about the different degrees on offer, the  student experience and application information for specific courses.",
+      "tags": [""],
       "image": {
         "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
         "alt": "Quick Setup",
-        "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+        "linkTo": ""
       },
       "links": [
         {
-          "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "type": "",
+          "url": ""
         },
         {
-          "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+          "type": "",
+          "url": ""
         }
       ]
     },
     {
       "visible": true,
-      "category": "🧰 EXTENDABLE LAYOUT",
-      "title": "Add more sections!",
-      "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-      "tags": ["Custom Sections", "Easy-2-Use"],
+      "category": "",
+      "title": "Learn on the go with our app",
+      "description": "The flexibility to learn with any device, from anywhere in the world. You’ll get full access to all of our latest features and can start learning immediately without lengthy downloads or installations required.",
+      "tags": [""],
       "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
+        "src": "../../images/descriptive.png",
         "alt": "Extendable Layout"
       },
       "links": [
         {
-          "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "type": "",
+          "url": ""
         }
       ]
     }
   ],
   "button": {
-    "visible": true,
-    "label": "Visit on Github",
+    "visible": false,
+    "label": "Free Trial",
     "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
   }
 }

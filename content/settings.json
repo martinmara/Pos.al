@@ -3,7 +3,7 @@
     "language": "en",
     "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
     "title": "POS.AL",
-    "titleTemplate": "POS.AL",
+    "titleTemplate": "",
     "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
     "author": "Konstantin Münster",
     "avatar": "../content/images/gatsby.png",
@@ -38,8 +38,8 @@
       ]
     },
     "featureToggles": {
-      "useDarkModeAsDefault": false,
-      "useDarkModeBasedOnUsersPreference": false,
+      "useDarkModeAsDefault": true,
+      "useDarkModeBasedOnUsersPreference": true,
       "useCookieBar": false
     }
   }
