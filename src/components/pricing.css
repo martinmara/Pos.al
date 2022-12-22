@@ -157,11 +157,10 @@ body {
   font-size: 17px;
 }
 
-@media screen and (max-width: 300px) {
-  .wrappercard2 {
-    display: inline-block;
-  }
+@media screen and (max-width: 600px) {
   .wrapper-card {
-    width: 25%;
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
   }
 }

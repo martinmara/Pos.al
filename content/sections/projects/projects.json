@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "visible": true,
+      "visible": false,
       "category": "",
       "title": "Find the right course for you to replenish knowledge and goals",
       "description": "Browse our study areas to see what's on offer at Despriptive and learn more about the different degrees on offer, the  student experience and application information for specific courses.",
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "visible": true,
+      "visible": false,
       "category": "",
       "title": "Learn on the go with our app",
       "description": "The flexibility to learn with any device, from anywhere in the world. You’ll get full access to all of our latest features and can start learning immediately without lengthy downloads or installations required.",

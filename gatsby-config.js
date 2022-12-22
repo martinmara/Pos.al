@@ -14,15 +14,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    {
-      resolve: "gatsby-theme-faqs-prismic",
-      options: {
-        prismicRepositoryName: PRISMIC_REPO_NAME,
-        prismicAccessToken: PRISMIC_API_KEY,
-        siteName: YOUR_SITE_NAME, // (Optional)
-        homePath: HOME_PATH, // (Optional) Defaults to '/'
-      },
-    },
 
     `gatsby-transformer-remark`,
     `gatsby-transformer-json`,

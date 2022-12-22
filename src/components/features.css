@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.main2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.img {
+  margin-left: 100px;
+  max-width: 59%;
+  max-height: 100%;
+}
+
+.motivatedparagraph {
+  margin-bottom: 0px;
+  font-family: Thicccboi, sans-serif;
+  color: #444;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+  max-width: 600px;
+  padding-right: 20px;
+}
+
+.feature1title {
+  margin-top: 0px;
+  margin-bottom: 24px;
+  padding-right: 40px;
+  font-family: Thicccboi, sans-serif;
+  color: #1e1e1e;
+  font-size: 40px;
+  line-height: 60.2px;
+  font-weight: 900;
+  max-width: 600px;
+}
+
+.text {
+  margin-top: 0px;
+  margin-bottom: 24px;
+  padding-left: 70px;
+  margin-left: 100px;
+  font-family: Thicccboi, sans-serif;
+  color: #1e1e1e;
+  font-size: 40px;
+  line-height: 70.2px;
+  font-weight: 900;
+  max-width: 500px;
+}
+
+.study {
+  margin-bottom: 0px;
+  font-family: Thicccboi, sans-serif;
+  color: #444;
+  font-size: 15px;
+  line-height: 38.8px;
+  font-weight: 500;
+  max-width: 500px;
+  padding-left: 70px;
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  .feature1title {
+    text-align: center;
+    margin-top: 0;
+    max-width: none;
+    margin-bottom: 12px;
+    font-size: 28px;
+    line-height: 36.4px;
+    font-weight: 900;
+  }
+
+  .text {
+    text-align: center;
+    margin-top: 0;
+    max-width: none;
+    margin-bottom: 12px;
+    font-size: 20px;
+    line-height: 36.4px;
+    font-weight: 900;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main2 {
+    max-width: none;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+  }
+}

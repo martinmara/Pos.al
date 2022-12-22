@@ -10,11 +10,13 @@ const Pricing = () => {
         nodes {
           frontmatter {
             title
+            id
             header
             whats_included
             list
             pricing
           }
+          id
         }
       }
     }
@@ -31,7 +33,7 @@ const Pricing = () => {
           return (
             <div class="wrapper-card">
               <div className="wrappercard2">
-                <div class="card">
+                <div class="card" id={item.frontmatter.id}>
                   <div class="card-title">
                     <h3>{item.frontmatter.header}</h3>
                   </div>

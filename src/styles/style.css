@@ -6,9 +6,11 @@
   font-family: Thicccboi, sans-serif;
   color: #1e1e1e;
   font-size: 40px;
-  line-height: 30px;
+  line-height: 60px;
   font-weight: 600;
   text-align: center;
+  margin: 0 auto;
+  max-width: 500px;
 }
 
 .textspan {
@@ -16,6 +18,7 @@
   font-weight: 1000;
 }
 .mainbutton {
+  margin-top: 30px;
   display: flex;
   justify-content: center;
 }
@@ -46,6 +49,7 @@
 }
 
 .startlearning {
+  padding-top: 100px;
   margin-top: 50px;
   min-width: 100px;
   max-width: 700px;
@@ -79,6 +83,7 @@
 .main-button2 {
   display: flex;
   justify-content: center;
+  padding-bottom: 100px;
 }
 
 .button2 {
@@ -103,6 +108,20 @@
   background-color: black;
   border-color: #fcee6f;
 }
+.interestheading {
+  margin-bottom: 74px;
+  font-family: Thicccboi, sans-serif;
+  font-size: 32px;
+  line-height: 41.6px;
+  font-weight: 700;
+  text-align: center;
+}
+.interestspan {
+  color: #64996b;
+  font-size: 42px;
+  line-height: 54.6px;
+  font-weight: 900;
+}
 
 @media (max-width: 800px) {
   .hero {
@@ -111,6 +130,7 @@
     font-size: 30px;
     font-weight: 600;
     text-align: center;
+    max-width: 350px;
   }
   .textspan {
     font-weight: 1500;
@@ -146,5 +166,11 @@
     line-height: 18px;
     font-weight: 900;
     margin-bottom: 20px;
+  }
+  .interestheading {
+    font-size: 20px;
+  }
+  .interestspan {
+    font-size: 20px;
   }
 }

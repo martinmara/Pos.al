@@ -32,9 +32,7 @@
       },
       "footer": [
         { "label": "Features", "url": "/#features" },
-        { "label": "Pricing", "url": "/#pricing" },
-        { "label": "FAQ", "url": "/#faq" },
-        { "label": "Reviews", "url": "/#reviews" }
+        { "label": "FAQ", "url": "/#faq" }
       ]
     },
     "featureToggles": {
