@@ -19,7 +19,7 @@
 }
 
 .img2 {
-  margin-left: 100px;
+  margin-left: 180px;
   max-width: 59%;
   max-height: 100%;
 }
@@ -36,8 +36,8 @@
   font-size: 16px;
   line-height: 28px;
   font-weight: 500;
-  max-width: 600px;
-  padding-right: 20px;
+  max-width: 500px;
+  padding-right: 10px;
 }
 
 .feature1title {
@@ -98,5 +98,39 @@
     grid-row: inherit;
     justify-content: center;
     align-items: center;
+  }
+  .motivatedparagraph {
+    font-size: 14px;
+    line-height: 25.6px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 900;
+    max-width: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .study {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 25.6px;
+    max-width: none;
+    padding-left: 0;
+  }
+  .img2 {
+    display: none;
+    width: 500px;
+    text-align: center;
   }
 }

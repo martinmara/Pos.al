@@ -52,4 +52,19 @@
     font-weight: 700;
     max-width: 900px;
   }
+  .fr-title {
+    text-align: center;
+    padding-left: 0;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    font-size: 24px;
+    line-height: 36.4px;
+    font-weight: 900;
+    max-width: none;
+    float: none;
+  }
+  .question-wrapper {
+    margin: 0;
+    width: 100%;
+  }
 }

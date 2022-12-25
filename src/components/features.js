@@ -29,7 +29,7 @@ export default function Features() {
       </Animation>
       <Animation type="fadeIn">
         <div className="container">
-          <div>
+          <div className="text2">
             <h1 className="text">Learn on the go with our app</h1>
             <p className="study">
               Browse our study areas to see what's on offer at Despriptive and

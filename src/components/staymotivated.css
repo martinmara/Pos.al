@@ -33,3 +33,21 @@
   line-height: 28.8px;
   font-weight: 500;
 }
+
+@media screen and (max-width: 767px) {
+  .main2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .h3text {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .motivatedparagraph {
+    font-weight: 900;
+  }
+}

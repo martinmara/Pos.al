@@ -32,6 +32,7 @@ const Review = () => {
             <p className="paragraph">
               800+ hundred people are already learning on Descriptive.
             </p>
+
             {data.allMarkdownRemark.nodes.map((item) => {
               return (
                 <div className="row">

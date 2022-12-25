@@ -157,7 +157,7 @@ body {
   font-size: 17px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .wrapper-card {
     width: 50%;
     display: block;
