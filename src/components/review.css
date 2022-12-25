@@ -100,7 +100,7 @@ body {
 
 @media screen and (max-width: 800px) {
   .column {
-    width: 61%;
+    width: 65%;
     display: block;
     margin-bottom: 20px;
   }

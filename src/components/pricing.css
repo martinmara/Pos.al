@@ -159,7 +159,7 @@ body {
 
 @media screen and (max-width: 767px) {
   .wrapper-card {
-    width: 50%;
+    width: 70%;
     display: block;
     margin-bottom: 20px;
   }
