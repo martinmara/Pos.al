@@ -8,10 +8,10 @@ export default function Features() {
     <main>
       <Animation type="fadeIn">
         <div className="main2">
-          <div>
+          <div className="image1">
             <StaticImage
               alt="1"
-              className="img"
+              className="img1"
               src="../images/Descriptive - Google Chrome 12_18_2022 8_49_14 PM (2).png"
             />
           </div>
@@ -37,11 +37,11 @@ export default function Features() {
               experience and application information for specific courses.
             </p>
           </div>
-          <div className="image">
+          <div className="image2">
             <StaticImage
               src="../images/Descriptive - Google Chrome 12_7_2022 1_18_33 AM (2).png"
               alt="img"
-              className="img"
+              className="img2"
             />
           </div>
         </div>

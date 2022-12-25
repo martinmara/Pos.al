@@ -12,12 +12,23 @@
   margin-bottom: 200px;
 }
 
-.img {
+.img1 {
+  margin-left: 100px;
+  width: 59%;
+  height: 100%;
+}
+
+.img2 {
   margin-left: 100px;
   max-width: 59%;
   max-height: 100%;
 }
 
+.img3 {
+  margin-left: 100px;
+  max-width: 59%;
+  max-height: 100%;
+}
 .motivatedparagraph {
   margin-bottom: 0px;
   font-family: Thicccboi, sans-serif;
@@ -69,33 +80,23 @@
 @media screen and (max-width: 767px) {
   .feature1title {
     text-align: center;
-    margin-top: 0;
-    max-width: none;
-    margin-bottom: 12px;
-    font-size: 28px;
-    line-height: 36.4px;
-    font-weight: 900;
-  }
-
-  .text {
-    text-align: center;
-    margin-top: 0;
-    max-width: none;
     margin-bottom: 12px;
     font-size: 20px;
-    line-height: 36.4px;
+    line-height: 30px;
     font-weight: 900;
   }
-
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .motivatedparagraph {
+    text-align: center;
+    font-size: 16px;
+  }
+  .img1 {
+    width: 300px;
+    text-align: center;
   }
   .main2 {
-    max-width: none;
-    margin-right: auto;
-    margin-left: auto;
+    display: grid;
+    grid-row: inherit;
     justify-content: center;
+    align-items: center;
   }
 }

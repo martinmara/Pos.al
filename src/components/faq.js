@@ -2,6 +2,7 @@ import * as React from "react";
 import "./faq.css";
 import { useStaticQuery, graphql } from "gatsby";
 import { useState } from "react";
+import { Animation } from "gatsby-theme-portfolio-minimal";
 
 const Faq = () => {
   const data = useStaticQuery(graphql`
@@ -20,26 +21,32 @@ const Faq = () => {
 
   const [isShown, setIsShown] = useState(false);
 
-  const handleClick = (event) => {
-    setIsShown((current) => !current);
+  const handleClick = (idElement) => {
+    setIsShown((idElement) => !idElement);
   };
   return (
     <main className="faq-section">
-      <div className="faq-heading">
-        <h1 className="fr-title">Frequently asked questions</h1>
-      </div>
-
-      {data.allMarkdownRemark.nodes.map((item) => {
+      <Animation type="fadeIn">
+        <div className="faq-heading">
+          <h1 className="fr-title">Frequently asked questions</h1>
+        </div>
+      </Animation>
+      {data.allMarkdownRemark.nodes.map((item, index) => {
         return (
-          <div className="faq-wrapper">
-            <div className="content">
-              <div className="question-wrapper" key={item.id}>
-                <h2 className="question">
+          <div className="faq-wrapper" id={"faq-wrapper_" + index}>
+            <div className="content" id={"content_" + index}>
+              <div
+                className="question-wrapper"
+                id={"question-wrapper_" + index}
+              >
+                <h2 className="question" id={"question_" + index}>
                   {item.frontmatter.question}
                   <button
-                    id={item.id}
+                    id={"button_" + index}
                     className="question-button"
-                    onClick={handleClick}
+                    onClick={() => {
+                      handleClick("faq-wrapper_" + index);
+                    }}
                   >
                     +
                   </button>

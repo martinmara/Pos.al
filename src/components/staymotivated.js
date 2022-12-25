@@ -10,7 +10,7 @@ export default function Staymotivated() {
         <div>
           <StaticImage
             alt="1"
-            className="img"
+            className="img3"
             src="../images/Descriptive - Google Chrome 12_15_2022 10_39_09 AM (2).png"
           />
         </div>
