@@ -48,6 +48,9 @@
   .Interests {
     display: grid;
     grid-auto-flow: row;
+    text-align: center;
     justify-content: center;
+    margin: 0 auto;
+    grid-template-columns: repeat(1, 10.625rem);
   }
 }
