@@ -36,8 +36,8 @@
   font-size: 16px;
   line-height: 28px;
   font-weight: 500;
-  max-width: 500px;
-  padding-right: 10px;
+  max-width: 450px;
+  margin-left: 0px;
 }
 
 .feature1title {
@@ -104,7 +104,8 @@
     line-height: 25.6px;
   }
   .container {
-    display: flex;
+    display: grid;
+    grid-row: inherit;
     justify-content: center;
     align-items: center;
   }
@@ -129,8 +130,8 @@
     padding-left: 0;
   }
   .img2 {
-    display: none;
-    width: 500px;
+    width: 200px;
     text-align: center;
+    margin-left: 130px;
   }
 }
