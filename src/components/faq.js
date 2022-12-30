@@ -25,7 +25,7 @@ const Faq = () => {
     setIsShown((idElement) => !idElement);
   };
   return (
-    <main id="faq" className="faq-section">
+    <main className="faq-section">
       <Animation type="scaleIn">
         <div className="faq-heading">
           <h1 className="fr-title">Frequently asked questions</h1>
@@ -42,18 +42,23 @@ const Faq = () => {
                 >
                   <h2 className="question" id={"question_" + index}>
                     {item.frontmatter.question}
-                    <button
-                      id={"button_" + index}
-                      className="question-button"
-                      onClick={() => {
-                        handleClick("faq-wrapper_" + index);
-                      }}
-                    >
-                      +
-                    </button>
+                    <div className="button-wrapper">
+                      <button
+                        id={"button_" + index}
+                        className="question-button"
+                        onClick={() => {
+                          handleClick("faq-wrapper_" + index);
+                        }}
+                      >
+                        +
+                      </button>
+                    </div>
                   </h2>
+
                   {isShown && (
-                    <div className="answer">{item.frontmatter.answer}</div>
+                    <Animation type="scaleIn">
+                      <div className="answer">{item.frontmatter.answer}</div>
+                    </Animation>
                   )}
                 </div>
               </div>

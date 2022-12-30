@@ -22,17 +22,22 @@ export default function IndexPage() {
       <Seo title="POS.AL" />
       <Page useSplashScreenAnimation>
         <Section>
-          <div className="main">
-            <div className="maintext">
-              <h1 className="hero">
-                Take the next step
-                <span className="textspan"> toward professional </span>
-              </h1>
+          <Animation type="fadeLeft">
+            <div className="main">
+              <div className="maintext">
+                <Animation type="fadeLeft">
+                  <h1 className="hero">
+                    Take the next step
+                    <span className="textspan"> toward professional </span>
+                  </h1>
+                </Animation>
+              </div>
+
+              <div className="mainbutton">
+                <button className="button1">Free Trial</button>
+              </div>
             </div>
-            <div className="mainbutton">
-              <button className="button1">Free Trial</button>
-            </div>
-          </div>
+          </Animation>
         </Section>
         <Section id="screenshot">
           <Animation type="fadeUp">
@@ -42,10 +47,14 @@ export default function IndexPage() {
             />
           </Animation>
         </Section>
-        <div className="interestheading">
-          We collaborate with<span className="interestspan"> 200+ </span>
-          leading universities and companies
-        </div>
+        <Animation type="fadeUp">
+          <div className="interestheading">
+            <h1>
+              We collaborate with<span className="interestspan"> 200+ </span>
+              leading universities and companies
+            </h1>
+          </div>
+        </Animation>
 
         <InterestsSection sectionId="details" />
         <Features usefadeUpAnimation />

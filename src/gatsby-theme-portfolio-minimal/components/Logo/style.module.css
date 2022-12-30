@@ -2,12 +2,14 @@
   margin-bottom: 2px;
   font-family: Thicccboi, sans-serif;
   color: #1e1e1e;
-  font-size: 20px !important;
-  font-weight: 700;
+  font-size: 22px !important;
+  font-weight: 800;
 }
 
 @media (max-width: 600px) {
   .Logo {
-    float: left;
+    font-size: 26px;
+    line-height: 29.98px;
+    margin-left: -30px;
   }
 }
