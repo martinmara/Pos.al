@@ -25,7 +25,7 @@ const Faq = () => {
     setIsShown((idElement) => !idElement);
   };
   return (
-    <main className="faq-section">
+    <main id="faq" className="faq-section">
       <Animation type="scaleIn">
         <div className="faq-heading">
           <h1 className="fr-title">Frequently asked questions</h1>

@@ -5,7 +5,7 @@ import { Animation } from "gatsby-theme-portfolio-minimal";
 
 export default function Features() {
   return (
-    <main>
+    <main id="features">
       <Animation type="fadeIn">
         <div className="main2">
           <div className="image1">
