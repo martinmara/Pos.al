@@ -124,6 +124,9 @@
 }
 
 @media (max-width: 800px) {
+  .interest-h1 {
+    font-size: 20px;
+  }
   .hero {
     font-family: Thicccboi, sans-serif;
     color: #1e1e1e;

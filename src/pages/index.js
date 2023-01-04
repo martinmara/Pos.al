@@ -49,7 +49,7 @@ export default function IndexPage() {
         </Section>
         <Animation type="fadeUp">
           <div className="interestheading">
-            <h1>
+            <h1 className="interest-h1">
               We collaborate with<span className="interestspan"> 200+ </span>
               leading universities and companies
             </h1>
