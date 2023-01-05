@@ -9,11 +9,13 @@ export default function Features() {
       <Animation type="fadeIn">
         <div className="main2">
           <div className="image1">
-            <StaticImage
-              alt="1"
-              className="img1"
-              src="../images/Descriptive - Google Chrome 12_18_2022 8_49_14 PM (2).png"
-            />
+            <Animation type="fadeRight">
+              <StaticImage
+                alt="1"
+                className="img1"
+                src="../images/Descriptive - Google Chrome 12_18_2022 8_49_14 PM (2).png"
+              />
+            </Animation>
           </div>
           <div className="title1">
             <h1 className="feature1title">
@@ -38,11 +40,13 @@ export default function Features() {
             </p>
           </div>
           <div className="image2">
-            <StaticImage
-              src="../images/Descriptive - Google Chrome 12_7_2022 1_18_33 AM (2).png"
-              alt="img"
-              className="img2"
-            />
+            <Animation type="fadeLeft">
+              <StaticImage
+                src="../images/Descriptive - Google Chrome 12_7_2022 1_18_33 AM (2).png"
+                alt="img"
+                className="img2"
+              />
+            </Animation>
           </div>
         </div>
       </Animation>

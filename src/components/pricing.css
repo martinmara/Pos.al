@@ -2,7 +2,7 @@
 .heading {
   max-width: 400px;
   margin-top: 0px;
-  margin-bottom: 24px;
+  margin-bottom: 100px;
   font-family: Thicccboi, sans-serif;
   color: #1e1e1e;
   font-size: 34px;
@@ -25,6 +25,7 @@ body {
   height: 100vh;
 }
 .wrappercard2 {
+  margin-top: 50px;
   display: flex;
   align-items: center;
 }
