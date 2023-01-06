@@ -31,14 +31,15 @@
 }
 
 .Links a {
-  font-size: 0.875rem;
+  font-size: 14px;
   font-weight: 700;
-  text-transform: uppercase;
-  margin-right: 2rem;
-  color: gray;
+  text-align: center;
+  color: gray !important;
+  padding: 0;
+  margin-right: 50px;
 }
-.Links a :hover {
-  color: black;
+.Links a:hover {
+  color: black !important;
 }
 
 .Links a:last-child {
