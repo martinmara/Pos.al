@@ -25,7 +25,7 @@ const Faq = () => {
     setIsShown((idElement) => !idElement);
   };
   return (
-    <main className="faq-section">
+    <main className="faq-section" id="faq">
       <Animation type="scaleIn">
         <div className="faq-heading">
           <h1 className="fr-title">Frequently asked questions</h1>
@@ -55,11 +55,13 @@ const Faq = () => {
                     </div>
                   </h2>
 
-                  {isShown && (
-                    <Animation type="scaleIn">
-                      <div className="answer">{item.frontmatter.answer}</div>
-                    </Animation>
-                  )}
+                  <div className="answer-wrapper">
+                    {isShown && (
+                      <Animation type="scaleIn">
+                        <div className="answer">{item.frontmatter.answer}</div>
+                      </Animation>
+                    )}
+                  </div>
                 </div>
               </div>
             </div>

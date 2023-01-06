@@ -134,13 +134,14 @@
     font-family: Thicccboi, sans-serif;
     color: #1e1e1e;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 900;
     text-align: center;
-    max-width: 350px;
+    line-height: 0;
+    max-width: 800px;
   }
   .textspan {
-    font-weight: 1500;
-    font-size: 30px;
+    font-weight: 900;
+    font-size: 35px;
   }
   .p1 {
     text-align: center;
