@@ -10,12 +10,12 @@
 .Interest {
   width: 10.5rem !important;
   height: 3rem;
-  display: inline-flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center;
   padding-right: 1rem;
   border-radius: var(--border-radius);
-  background-color: white;
+  background-color: white !important;
 }
 
 .Interests button {
