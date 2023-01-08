@@ -1,7 +1,7 @@
 ---
 title: Different plans for different needs
 id: card2
-header: Pro
+header: Basic
 pricing: $99/monthly
 whats-included: What’s included
 list: Access to free courses Access on mobile and TV
