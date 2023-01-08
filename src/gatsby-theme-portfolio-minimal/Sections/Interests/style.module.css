@@ -51,6 +51,7 @@
     text-align: center;
     justify-content: center;
     margin: 0 auto;
-    grid-template-columns: repeat(1, 10.625rem);
+    grid-template-columns: repeat(2, 12.625rem);
+    margin-left: 50px;
   }
 }
