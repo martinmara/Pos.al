@@ -17,7 +17,7 @@ Live Demo: https://descriptivebranch1.gatsbyjs.io/
 
 3. Once installed, you can begin developing your site.
 
-   ```sh
+   ``sh
    cd portfolio-minimal
    gatsby develop
    ```
